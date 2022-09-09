@@ -29,7 +29,6 @@ struct BlogRow: View {
             Text(blog.description)
         }
         .padding()
-
     }
 }
 

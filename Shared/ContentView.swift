@@ -10,17 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HStack {
-                Image(systemName: "line.3.horizontal")
-                Spacer()
-                Text("Following")
-                Text("Discover")
-                    .underline()
-                Text("Nearby")
-                Spacer()
-                Image(systemName: "magnifyingglass")
-            }
-            .padding()
             
             TabberView()
         }

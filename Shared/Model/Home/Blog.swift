@@ -14,6 +14,7 @@ struct Blog: Hashable, Codable, Identifiable {
     var title: String
     var brief: String
     var description: String
+    var detail: String
     
     private var avatarName: String
     var avatar: Image {

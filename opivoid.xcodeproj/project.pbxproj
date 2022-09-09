@@ -23,6 +23,7 @@
 		43AF11B628C79B76009AD704 /* blogData.json in Resources */ = {isa = PBXBuildFile; fileRef = 43AF11B528C79B76009AD704 /* blogData.json */; };
 		43AF11B828C7D42D009AD704 /* BlogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF11B728C7D42D009AD704 /* BlogList.swift */; };
 		43AF11BA28C82C3A009AD704 /* TabbberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF11B928C82C3A009AD704 /* TabbberView.swift */; };
+		43AF11BE28C974EB009AD704 /* BlogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF11BD28C974EB009AD704 /* BlogDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		43AF11B528C79B76009AD704 /* blogData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blogData.json; sourceTree = "<group>"; };
 		43AF11B728C7D42D009AD704 /* BlogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogList.swift; sourceTree = "<group>"; };
 		43AF11B928C82C3A009AD704 /* TabbberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbberView.swift; sourceTree = "<group>"; };
+		43AF11BD28C974EB009AD704 /* BlogDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				43AF11AE28C6AAB7009AD704 /* BlogRow.swift */,
 				43AF11B728C7D42D009AD704 /* BlogList.swift */,
 				43AF11B928C82C3A009AD704 /* TabbberView.swift */,
+				43AF11BD28C974EB009AD704 /* BlogDetail.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			files = (
 				43AF11AF28C6AAB7009AD704 /* BlogRow.swift in Sources */,
 				43AF11B828C7D42D009AD704 /* BlogList.swift in Sources */,
+				43AF11BE28C974EB009AD704 /* BlogDetail.swift in Sources */,
 				43AF11B228C6AB02009AD704 /* Blog.swift in Sources */,
 				43AF11B428C79A43009AD704 /* ModelData.swift in Sources */,
 				43AF11BA28C82C3A009AD704 /* TabbberView.swift in Sources */,
