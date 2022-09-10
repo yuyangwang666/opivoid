@@ -8,6 +8,8 @@
 import Foundation
 
 var blogs: [Blog] = load("blogData.json")
+var helpers: [Helper] = load("helperData.json")
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

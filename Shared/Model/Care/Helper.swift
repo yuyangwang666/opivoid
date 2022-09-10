@@ -1,20 +1,21 @@
 //
-//  Blog.swift
+//  Helper.swift
 //  opivoid (iOS)
 //
-//  Created by 王禹旸 on 2022/9/5.
+//  Created by 王禹旸 on 2022/9/10.
 //
 
 import Foundation
 import SwiftUI
 
-struct Blog: Hashable, Codable, Identifiable {
+struct Helper: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var title: String
-    var brief: String
-    var description: String
+    var company: String
+    var concentration: String
     var detail: String
+    var feeRate: String
     
     private var avatarName: String
     var avatar: Image {
@@ -27,4 +28,3 @@ struct Blog: Hashable, Codable, Identifiable {
     }
     
 }
-
