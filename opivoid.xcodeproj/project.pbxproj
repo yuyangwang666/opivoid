@@ -29,6 +29,7 @@
 		43AF11C928CCFFDE009AD704 /* HelperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF11C828CCFFDE009AD704 /* HelperRow.swift */; };
 		43AF11CB28CD15AC009AD704 /* HelperList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF11CA28CD15AC009AD704 /* HelperList.swift */; };
 		43AF11CD28CD1A3A009AD704 /* HelperDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF11CC28CD1A3A009AD704 /* HelperDetail.swift */; };
+		43AF11CF28CD3DB8009AD704 /* BlogListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF11CE28CD3DB8009AD704 /* BlogListTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		43AF11C828CCFFDE009AD704 /* HelperRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperRow.swift; sourceTree = "<group>"; };
 		43AF11CA28CD15AC009AD704 /* HelperList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperList.swift; sourceTree = "<group>"; };
 		43AF11CC28CD1A3A009AD704 /* HelperDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperDetail.swift; sourceTree = "<group>"; };
+		43AF11CE28CD3DB8009AD704 /* BlogListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				43AF11B728C7D42D009AD704 /* BlogList.swift */,
 				43AF11B928C82C3A009AD704 /* TabbberView.swift */,
 				43AF11BD28C974EB009AD704 /* BlogDetail.swift */,
+				43AF11CE28CD3DB8009AD704 /* BlogListTest.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				43AF11B428C79A43009AD704 /* ModelData.swift in Sources */,
 				43AF11C228CCFAE1009AD704 /* Helper.swift in Sources */,
 				43AF11C928CCFFDE009AD704 /* HelperRow.swift in Sources */,
+				43AF11CF28CD3DB8009AD704 /* BlogListTest.swift in Sources */,
 				43AF11BA28C82C3A009AD704 /* TabbberView.swift in Sources */,
 				43AF119828C6AA0A009AD704 /* ContentView.swift in Sources */,
 				43AF119628C6AA0A009AD704 /* opivoidApp.swift in Sources */,
