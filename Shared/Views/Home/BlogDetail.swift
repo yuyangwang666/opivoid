@@ -51,7 +51,7 @@ struct BlogDetail: View {
                     }
                 }
                 .padding()
-                .frame(width: 350)
+                .frame(width: .infinity)
                 .background(Color.white)
                 .cornerRadius(10)
             }

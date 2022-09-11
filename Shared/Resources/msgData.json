@@ -1,0 +1,25 @@
+
+[
+    {
+        "name": "Ben Turner",
+        "msg": "doctor of medicine",
+        "date": "09-01",
+        "id": 1001,
+        "avatarName": "benturner",
+    },
+    {
+        "name": "Sarah Mann",
+        "msg": "certificated peer",
+        "date": "09-02",
+        "id": 1002,
+        "avatarName": "sarahmann",
+    },
+    {
+        "name": "Nora Voller",
+        "msg": "national institute on drug abuse",
+        "date": "09-03",
+        "id": 1003,
+        "avatarName": "noravoller",
+    },
+]
+

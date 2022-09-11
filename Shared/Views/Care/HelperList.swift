@@ -18,8 +18,9 @@ struct HelperList: View {
                     Text("Care")
                         .font(.system(size: 24))
                     HStack{
+                        Spacer()
                         VStack{
-                            Image("umbagog")
+                            Image("Doctor")
                                 .resizable()
                                 .frame(width: 70, height: 70)
                                 .cornerRadius(10)
@@ -29,7 +30,7 @@ struct HelperList: View {
                         }
                         Spacer()
                         VStack{
-                            Image("umbagog")
+                            Image("Peer")
                                 .resizable()
                                 .frame(width: 70, height: 70)
                                 .cornerRadius(10)
@@ -41,7 +42,7 @@ struct HelperList: View {
                         }
                         Spacer()
                         VStack{
-                            Image("umbagog")
+                            Image("Community")
                                 .resizable()
                                 .frame(width: 70, height: 70)
                                 .cornerRadius(10)
@@ -49,6 +50,7 @@ struct HelperList: View {
                                 .font(.system(size: 14))
                             Spacer()
                         }
+                        Spacer()
                     }
                     Text("Recommended for you")
                         .font(.system(size: 18))
@@ -58,20 +60,20 @@ struct HelperList: View {
                 ScrollView{
                     ForEach(Array(zip(helpers.indices, helpers)), id: \.0){ index, helper in
 
-                            VStack {
-                                HelperRow(helper: helper)
-                                    .onTapGesture {
-                                        showPositionHelper[index]=true
-                                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.001){
-                                            showInHelper[index] = true
-                                               }
-                                    }
-                                    
-                            }
-                            .padding(5)
-                            .background(Color.white)
-                            .cornerRadius(10)
-                            
+                        VStack {
+                            HelperRow(helper: helper)
+                                .onTapGesture {
+                                    showPositionHelper[index]=true
+                                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.001){
+                                        showInHelper[index] = true
+                                           }
+                                }
+                                
+                        }
+                        .padding(5)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        
                         }
                     }
                     .padding(10)

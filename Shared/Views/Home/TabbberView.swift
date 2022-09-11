@@ -9,12 +9,12 @@ import SwiftUI
 
 struct TabberView: View {
     var body: some View {
-        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
-            BlogList().tabItem { Image(systemName: "house") }.tag(1)
-            HelperList().tabItem { Image(systemName: "heart")}.tag(2)
-            Text("add").tabItem { Image(systemName: "plus.circle.fill") }.tag(3)
-            Text("message").tabItem { Image(systemName: "message") }.tag(4)
-            Text("me").tabItem { Image(systemName: "person") }.tag(5)
+        TabView{
+            BlogList().tabItem { Image(systemName: "house") }
+            HelperList().tabItem { Image(systemName: "heart")}
+            Text("add").tabItem { Image(systemName: "plus.circle.fill") }
+            MessageMain().tabItem { Image(systemName: "message") }
+            Text("me").tabItem { Image(systemName: "person") }
         }
         .background(Color(red: 239/255, green: 239/255, blue: 239/255))
     }
